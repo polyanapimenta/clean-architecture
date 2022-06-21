@@ -1,0 +1,12 @@
+GET http://localhost:3000/routes
+
+###
+
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+  "title": "Poly route",
+  "startPosition": { "lat": 70, "lng": 35 },
+  "endPosition": { "lat": 60, "lng": 40 }
+}
